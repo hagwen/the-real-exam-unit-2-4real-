@@ -40,7 +40,7 @@ double FahrenheitToCelsius(double fahrenheit)
 }
 
 
-
+Console.WriteLine("-----------------");
 
 
 //task 2 starts now!!!
@@ -100,6 +100,13 @@ Response task2AnswerResponse = await httpUtils.Post(baseURL + taskEndpoint + myP
 Console.WriteLine($"Answer: {Colors.Green}{task2AnswerResponse}{ANSICodes.Reset}");
 
 
+
+
+Console.WriteLine("-----------------");
+
+
+
+
 //task3!!! yheee
 
 
@@ -124,6 +131,11 @@ string answerString = nextNumber.ToString();
 
 Response task3AnswerResponse = await httpUtils.Post(baseURL + taskEndpoint + myPersonalID + "/" + taskID, answerString);
 Console.WriteLine($"Answer: {Colors.Green}{task3AnswerResponse}{ANSICodes.Reset}");
+
+
+
+Console.WriteLine("-----------------");
+
 
 
 
